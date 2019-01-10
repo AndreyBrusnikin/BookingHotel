@@ -1,11 +1,5 @@
 #wrapper {
-	position: relative;
-	width: 100%;
+	min-width: 320px;
 	overflow: hidden;
 }
 
-.container {
-	max-width: 960px;
-	padding: 0 15px;
-	margin: 0 auto;
-}
