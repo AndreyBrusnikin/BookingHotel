@@ -27,7 +27,7 @@
   a {
 
     list-style: none;
-    color: #fff;
+
 
   }
 }
@@ -39,6 +39,49 @@
   border-radius: 0 0 10px 10px;
 }
 
-.dropdown-menu{
-  background-color: $custom-black;
+
+
+.navbar-collapse.collapse {
+  justify-content: end;
+}
+
+.btn-search{
+  background: $orange-gradient;
+}
+
+.custom-checkmark{
+  position: relative;
+  margin-left:30px;
+
+  :after {
+    content: '';
+    border-left: 3px solid $custom-green;
+    border-bottom: 3px solid $custom-green;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    transform: rotate(-45deg);
+    left: -30px;
+    top: 3px;
+  }
+}
+
+.link-search{
+  color:$custom-black;
+}
+
+.form-holder{
+  background-color: $custom-gray;
+  padding: 17px 30px;
+  border-radius: 5px;
+}
+
+.search-form{
+  padding: 30px 0;
+  width: 100%;
+  border-bottom: 10px solid transparentize($custom-gray, 0.7);
+}
+
+.link-search{
+  font-weight: 600;
 }
