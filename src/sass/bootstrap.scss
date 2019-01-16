@@ -1,5 +1,6 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "./common/custom-variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/root";
 @import "../../node_modules/bootstrap/scss/reboot";
@@ -34,6 +35,3 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 //@import "../../node_modules/bootstrap/scss/print";
 
-
-@import "./common/variables";
-@import "./common/custom-variables";

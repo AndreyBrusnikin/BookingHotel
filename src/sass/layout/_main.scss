@@ -3,3 +3,60 @@
 	overflow: hidden;
 }
 
+.bg-image{
+	background-image: url(../images/map.png);
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	background-size: 70%;
+}
+
+.sort-form{
+	background-color: $custom-light-grey;
+	padding: 20px;
+	border-radius: 0 10px 10px 10px;
+	border-top: 10px 	solid $custom-gray;
+
+
+
+	h2{
+		font-size: $h2-font-size;
+		color: $custom-orange;
+		font-weight: bold;
+		margin: 0;
+
+	}
+	span {
+		font-size: 23px;
+		font-weight: bold;
+		color: $custom-gray;
+		margin-left: 50px;
+	}
+
+	p{
+		font-size: 14px;
+		font-weight: 600;
+		margin: 0;
+	}
+
+}
+
+.custom-dropdown-toggle::after {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-left: 55px;
+	vertical-align: 3px;
+	content: "";
+	border-top: 2px solid transparent;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+	border-left: 2px solid transparent;
+	transform: rotate(45deg);
+
+}
+
+.drop-down-sort{
+	border-radius: 10px	;
+}
+
+
