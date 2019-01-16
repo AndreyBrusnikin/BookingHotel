@@ -1,3 +1,4 @@
+$font-family-sans-serif: 'Roboto', sans-serif;
 $custom-orange: #f58220;
 $custom-black: #282c32;
 $custom-gray: #58585a;
@@ -5,14 +6,23 @@ $orange-gradient: linear-gradient(to bottom, rgba(250,164,26,1) 0%, rgba(245,131
 $custom-green: #95c727;
 $custom-font-size-base: 0.875rem;
 $custom-light-grey:#f6f6f6;
+$gray-border: #c3c3c3;
+$custom-body-bg-color:#f1f1f1;
+
+
 $h2-font-size: 23px;
-$h3-font-size: 20x;
+$h3-font-size: 22x;
 $h4-font-size: 15px;
 $h5-font-size: 14px;
 $navbar-dark-color: #fff ;
+$body-bg: $custom-body-bg-color;
+$text-color: $custom-gray;
 
 
-$font-family-sans-serif: 'Roboto', sans-serif;
+
 $gray-800: $custom-gray;
 $enable-transitions: true;
 
+.card-header{
+  border-bottom: 0;
+}

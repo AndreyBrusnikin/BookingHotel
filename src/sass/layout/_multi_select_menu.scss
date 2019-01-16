@@ -1,0 +1,7 @@
+.card-header i.fas:before {
+  content: "\f106";
+}
+
+.card-header.collapsed i.fas:before {
+  content: "\f107";
+}
