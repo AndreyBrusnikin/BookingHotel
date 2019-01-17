@@ -36,7 +36,7 @@
 
   /* if any input is checked, make its following siblings grey */
   .rating__input:checked ~ .rating__label .rating__icon--star {
-    color: #ddd;
+    color: #fbc6a3;
   }
 
   /* make all stars orange on rating group hover */
@@ -46,9 +46,64 @@
 
   /* make hovered input's following siblings grey on hover */
   .rating__input:hover ~ .rating__label .rating__icon--star {
-    color: #ddd;
+    color: #fbc6a3;
   }
 }
+
+
+#full-stars-example-two2 {
+
+  /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+  .rating-group2 {
+    display: inline-flex;
+  }
+
+  /* make hover effect work properly in IE */
+  .rating__icon2 {
+    pointer-events: none;
+  }
+
+  /* hide radio inputs */
+  .rating__input2 {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+
+  /* hide 'none' input from screenreaders */
+  .rating__input2--none {
+    display: none
+  }
+
+  /* set icon padding and size */
+  .rating__label2 {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 0.8rem;
+  }
+
+  /* set default star color */
+  .rating__icon2--star {
+    color: orange;
+  }
+
+  /* if any input is checked, make its following siblings grey */
+  .rating__input2:checked ~ .rating__label2 .rating__icon2--star {
+    color: #fbc6a3;
+  }
+
+  /* make all stars orange on rating group hover */
+  .rating-group2:hover .rating__label2 .rating__icon2--star {
+    color: orange;
+  }
+
+  /* make hovered input's following siblings grey on hover */
+  .rating__input2:hover ~ .rating__label2 .rating__icon2--star {
+    color: #fbc6a3;
+  }
+}
+
+
+
 
 #full-square-example-two {
 
@@ -87,7 +142,7 @@
 
   /* if any input is checked, make its following siblings grey */
   .rating__input1:checked ~ .rating__label1 .rating__icon1--square {
-    color: #ddd;
+    color: #fbc6a3;
   }
 
   /* make all stars orange on rating group hover */
@@ -97,7 +152,7 @@
 
   /* make hovered input's following siblings grey on hover */
   .rating__input1:hover ~ .rating__label1 .rating__icon1--square {
-    color: #ddd;
+    color: #fbc6a3;
   }
 }
 

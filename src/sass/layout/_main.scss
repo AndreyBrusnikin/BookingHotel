@@ -3,6 +3,10 @@
 	overflow: hidden;
 }
 
+body{
+	background: $custom-body-bg-color;
+}
+
 .bg-image{
 	background-image: url(../images/map.png);
 	background-repeat: no-repeat;
@@ -70,3 +74,31 @@
 	font-weight: 600;
 }
 
+.card-title-custom{
+	padding: 20px 0;
+	background: $custom-gray-title-card;
+	text-align: center;
+	border-bottom: 4px solid $custom-gray;
+
+}
+
+.card-title{
+	background: $custom-gray-card-price;
+	border-radius: 10px;
+	max-width: 70%;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+.card:hover{
+	box-shadow: 0 0 10px $custom-orange;
+}
+
+.btn-color{
+	background-color: $custom-color-button-card;
+}
+
+.card-rait{
+	background-color: rgba(0,0, 0, 0.7);
+	color: $custom-color-button-card;
+}
