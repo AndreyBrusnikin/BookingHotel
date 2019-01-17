@@ -90,3 +90,27 @@
 .link-search{
   font-weight: 600;
 }
+
+.form-control{
+  border: 0;
+}
+
+.input-group{
+  padding-right: 8px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 3px;
+
+  span{
+    background-color: white;
+  }
+}
+
+.fa-calendar{
+  color: $custom-orange;
+}
+
+.btn-outline-secondary{
+    border: 0px !important;
+
+}

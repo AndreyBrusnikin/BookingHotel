@@ -7,10 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <script src="./js/gijgo.min.js" type="text/javascript"></script>
     <script src="js/Bootstrap.js"></script>
 </head>
 <body>
@@ -92,7 +95,7 @@
             <form action="#" class="form-inline justify-content-between form-holder">
                 <input type="text" class="form-control mb-2 mb-md-0 mr-sm-2 flex-grow-1 flex-shrink-1"
                        placeholder="Auckland, New Zealand">
-                <input type="text" class="form-control mb-2 mb-md-0 mr-sm-2 flex-grow-1 flex-shrink-1"
+                <input id="datepicker" width="276" type="text" class="form-control mb-2 mb-md-0 mr-sm-2 flex-grow-1 flex-shrink-1"
                        placeholder="Jan 27-29 Jan ">
                 <input type="text" class="form-control mb-2 mb-md-0 mr-sm-2 flex-grow-1 flex-shrink-1"
                        placeholder="2 Adults & Kids">
@@ -130,7 +133,7 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-12 col-md-9  d-flex flex-wrap">
+                    <div class="col-12 col-md-9   d-flex flex-wrap">
                         <div class="col-12 p-0">
                             <div class="sort-form mb-4 d-flex flex-row align-items-center justify-content-between">
                                 <h2>Auckland</h2>
@@ -142,7 +145,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Scenic Hotel Auckland</h3>
@@ -188,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class="card text-center">
                                 <div class="card-title-custom al">
                                 <h3 class="">Mercure Hotel</h3>
@@ -234,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Best Western Ellersli...</h3>
@@ -280,7 +283,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Scenic Hotel Auckland</h3>
@@ -326,7 +329,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class="card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Mercure Hotel</h3>
@@ -372,7 +375,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Best Western Ellersli...</h3>
@@ -418,7 +421,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Scenic Hotel Auckland</h3>
@@ -465,7 +468,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class="card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Mercure Hotel</h3>
@@ -511,7 +514,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 pb-2 p-md-2">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 p-md-2">
                             <div class=" card text-center">
                                 <div class="card-title-custom al">
                                     <h3 class="">Best Western Ellersli...</h3>
@@ -869,6 +872,12 @@
             </div>
         </div>
     </footer>
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4',
+            iconsLibrary: 'fontawesome'
+        });
+    </script>
 </body>
 </html>
 
