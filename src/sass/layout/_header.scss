@@ -1,3 +1,5 @@
+
+
 .navbar-nav{
   p{
     color: $custom-orange;
@@ -43,7 +45,19 @@
   border-radius: 0 0 10px 10px;
 }
 
-
+.custom-dropdown-toggle-nav::after {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
+  vertical-align: 3px;
+  content: "";
+  border-top: 2px solid transparent;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 2px solid transparent;
+  transform: rotate(45deg);
+}
 
 .navbar-collapse.collapse {
   justify-content: end;
@@ -113,4 +127,11 @@
 .btn-outline-secondary{
     border: 0px !important;
 
+}
+
+.icon-adult{
+  color: $custom-orange;
+  position: relative;
+  right: 50px;
+  font-size: 25px;
 }

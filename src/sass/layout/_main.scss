@@ -103,3 +103,22 @@ body{
 	color: $custom-color-button-card;
 }
 
+.room-card{
+	padding-bottom: 40px;
+}
+
+.icon-border{
+	background-color: $custom-gray;
+	padding: 5px;
+
+
+	i{
+		color:white;
+		font-size: 20px;
+	}
+}
+
+.icon-border:hover{
+	background-color: $custom-orange;
+
+}
