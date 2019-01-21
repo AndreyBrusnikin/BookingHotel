@@ -60,6 +60,15 @@ body{
 	border-bottom: 3px solid white;
 	border-left: 2px solid transparent;
 	transform: rotate(45deg);
+
+	@media (min-width: 320px){
+		margin-left: 15px;
+	}
+
+	@media (min-width: 567px){
+		margin-left: 55px;
+	}
+
 }
 
 
@@ -77,6 +86,23 @@ body{
 .form-check-label{
 	font-size: 13px;
 	font-weight: 600;
+}
+
+.card-holder{
+	position: absolute;
+}
+
+.offers{
+	position: absolute;
+	top: -14px;
+	right: -13px;
+	width: 90px;
+}
+
+.recomend{
+	position: absolute;
+	left: -4px;
+	top: -3px;
 }
 
 .card-title-custom{
