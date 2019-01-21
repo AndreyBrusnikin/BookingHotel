@@ -621,7 +621,7 @@ gj.picker.methods = {
         if (data.uiLibrary === 'bootstrap') {
             $rightIcon = $('<span class="input-group-addon">' + data.icons.rightIcon + '</span>');
         } else if (data.uiLibrary === 'bootstrap4') {
-            $rightIcon = $('<span class="input-group-append"><button class="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
+            $rightIcon = $('<span class="input-group-append"><button class="btn border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
         } else {
             $rightIcon = $(data.icons.rightIcon);
         }
@@ -12733,7 +12733,7 @@ gj.editor.config = {
         style: {
             wrapper: 'gj-editor gj-editor-bootstrap',
             buttonsGroup: 'btn-group',
-            button: 'btn btn-outline-secondary gj-cursor-pointer',
+            button: 'btn gj-cursor-pointer',
             buttonActive: 'active'
         }
     },
@@ -13340,7 +13340,7 @@ gj.dropdown.config = {
     bootstrap4: {
         style: {
             wrapper: 'gj-dropdown gj-dropdown-bootstrap gj-dropdown-bootstrap-4 gj-unselectable',
-            presenter: 'btn btn-outline-secondary',
+            presenter: 'btn',
             list: 'gj-list gj-list-bootstrap gj-dropdown-list-bootstrap list-group',
             item: 'list-group-item',
             active: 'active'
@@ -14415,7 +14415,7 @@ gj.datepicker.config = {
 
     bootstrap4: {
         style: {
-            wrapper: 'gj-datepicker gj-datepicker-bootstrap gj-unselectable input-group',
+            wrapper: 'gj-datepicker gj-datepicker-bootstrap gj-unselectable input-group mr-sm-2 flex-grow-1',
             input: 'form-control',
             calendar: 'gj-picker gj-picker-bootstrap datepicker gj-unselectable',
             footer: 'modal-footer',
@@ -14487,7 +14487,7 @@ gj.datepicker.methods = {
             if (data.uiLibrary === 'bootstrap') {
                 $rightIcon = $('<span class="input-group-addon">' + data.icons.rightIcon + '</span>');
             } else if (data.uiLibrary === 'bootstrap4') {
-                $rightIcon = $('<span class="input-group-append"><button class="btn btn-outline-secondary border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
+                $rightIcon = $('<span class="input-group-append"><button class="btn border-left-0" type="button">' + data.icons.rightIcon + '</button></span>');
             } else {
                 $rightIcon = $(data.icons.rightIcon);
             }
@@ -17525,5 +17525,3 @@ gj.colorpicker.widget.constructor = gj.colorpicker.widget;
         }
     };
 })(jQuery);
-
-
