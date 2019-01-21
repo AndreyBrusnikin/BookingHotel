@@ -1,0 +1,34 @@
+.popover-body {
+  .btn-primary {
+    background: $custom-orange;
+    color: $custom-gray !important;
+    border: none;
+
+    &:hover {
+      background: $custom-orange;
+      color: $custom-gray !important;
+
+      .fas {
+        color: $custom-gray;
+      }
+    }
+
+    &:active {
+      background: $custom-gray;
+    }
+  }
+}
+  .number-spinner {
+    .fas {
+      color: white;
+    }
+  }
+
+.gj-icon{
+  color: $custom-orange;
+}
+
+.gj-datepicker{
+  border-radius: 4px;
+
+}
